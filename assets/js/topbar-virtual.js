@@ -107,7 +107,7 @@ $(document).ready(function () {
       var self = this;
       
       var windowTop = Math.floor($(window).scrollTop());
-      var $stickyLinks = self.$sticky.find('.navbar-nav .nav-item').removeClass('active');
+      var $stickyLinks = self.$sticky./('.navbar-nav .nav-item').removeClass('active');
       var stickyPosition = 'fixed';
       var currentIndex = 0;
       
